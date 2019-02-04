@@ -1,0 +1,39 @@
+After each event on Magic: the Gathering Online (MtGO) Wizards of the Coast (WotC) publishes the deck lists of players that went undefeated in the even. 
+I was able to find articles that included the deck lists for events going back to March 2018 for a total of 1041 decks.
+I was able to extract the card names from the page source for each article using Matlab.
+I also found a database of all Magic cards at:
+
+https://archive.scryfall.com/json/scryfall-all-cards.json
+
+Here are the articles:
+
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-03-31'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-04-07'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-04-28'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-06-02'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-06-09'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-07-07'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-07-14'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-07-21'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-07-28'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-08-04'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-08-11'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-08-25'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-09-01'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-09-08'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-09-22'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-09-29'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-10-06'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-10-13'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-10-27'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-11-17'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-11-24'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-12-01'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-12-08'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-12-15'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-12-22'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2018-12-29'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2019-01-05'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2019-01-12'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2019-01-19'
+'https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2019-01-26'
